@@ -23,7 +23,7 @@
 4. #给包重命名为mysql,并安装到/usr/local/目录下 mv mysql-8.0.16-linux-glibc2.12-x86_64 /usr/local/mysql
 5. 查看mysql目录下的文件
    
-   ![image]()
+   ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%872.png)
  
 6. 检查mysql组和用户是否存在，如无创建
 
@@ -57,7 +57,7 @@
   
      ./mysqld –initialize
      
-     ![image]
+     ![image]()
  
 11. 在在/etc/下创建创建my.cnf
 
@@ -71,11 +71,13 @@
      
      在配置文件中添加配置
      
-     ![image]
+     ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%873.png)
 
 12. 修改config配置，修改SELINUX=disabled
 
     vi /etc/selinux/config
+    
+    ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%874.png)
     
     修改mysql目录权限
     
