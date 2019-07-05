@@ -57,7 +57,7 @@
   
      ./mysqld –initialize
      
-     ![image]()
+     ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%876.png)
  
 11. 在在/etc/下创建创建my.cnf
 
@@ -113,7 +113,7 @@
         
     成功启动：
     
-    ![image]
+    ![image]（https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%875.png）
     
 
 
