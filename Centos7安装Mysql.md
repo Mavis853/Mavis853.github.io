@@ -104,21 +104,15 @@
     chkconfig --add mysqld
     
  16. 设置开机启动
+ 
+     chkconfig mysqld on
+     
+     启动测试
+     
+     service mysqld start
+     
+     成功启动
+     
+     ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%875.png)
     
-    chkconfig mysqld on
     
-    #启动测试
-    
-    service mysqld start
-        
-    成功启动：
-    
-    ![image]（https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%875.png）
-    
-
-
-
-
-
-
-
