@@ -12,18 +12,19 @@
 1. 把 mysql-8.0.16-linux-glibc2.12-x86_64.tar 复制到虚拟机上
 2. 运用查找命令找到Mysql文件：[root@localhost ~]# find / -name "*.tar"
 
-
+  ![image](https://github.com/Mavis853/Mavis853.github.io/blob/master/%E5%9B%BE%E7%89%871.png)
 
 3. 进入文件所在目录，解压缩包：
 
-[root@localhost ~]# cd /root/.cache/vmware/drag_and_drop/JffXB7
+   [root@localhost ~]# cd /root/.cache/vmware/drag_and_drop/JffXB7
 
-[root@localhost JffXB7]# tar -xvf mysql-8.0.16-linux-glibc2.12-x86_64.tar
+   [root@localhost JffXB7]# tar -xvf mysql-8.0.16-linux-glibc2.12-x86_64.tar
 
 4. #给包重命名为mysql,并安装到/usr/local/目录下 mv mysql-8.0.16-linux-glibc2.12-x86_64 /usr/local/mysql
 5. 查看mysql目录下的文件
-
-
+   
+   ![image]()
+ 
 6. 检查mysql组和用户是否存在，如无创建
 
    cat /etc/group | grep mysql 
@@ -55,6 +56,8 @@
      cd /usr/local/mysql/bin
   
      ./mysqld –initialize
+     
+     ![image]
  
 11. 在在/etc/下创建创建my.cnf
 
@@ -68,6 +71,7 @@
      
      在配置文件中添加配置
      
+     ![image]
 
 12. 修改config配置，修改SELINUX=disabled
 
@@ -104,9 +108,10 @@
     #启动测试
     
     service mysqld start
-    
+        
     成功启动：
     
+    ![image]
     
 
 
